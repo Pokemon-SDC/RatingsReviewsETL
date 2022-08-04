@@ -1,0 +1,24 @@
+{
+  "name": "ratingsreviewsetl",
+  "version": "1.0.0",
+  "description": "Repository for RatingsReviews PostgresDB Server",
+  "main": "Initialization.js",
+  "scripts": {
+    "initialize": "node Initialization.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pokemon-SDC/RatingsReviewsETL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pokemon-SDC/RatingsReviewsETL/issues"
+  },
+  "homepage": "https://github.com/Pokemon-SDC/RatingsReviewsETL#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "pg": "^8.7.3"
+  }
+}
